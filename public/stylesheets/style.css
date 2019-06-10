@@ -1,0 +1,12 @@
+.bg-image {
+  background: 'images/motors/IMG-20190603-WA0005.jpg'
+}
+
+.package-title {
+  font-weight: bold;
+  background-color: teal;
+}
+
+.form-header {
+  padding: 50px 0px;
+}
