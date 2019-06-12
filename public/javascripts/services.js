@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('select');
     M.FormSelect.init(elems, {});
+    var instance = M.FormSelect.getInstance(elems[0]);
+    console.log(instance);
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, '\\$&');

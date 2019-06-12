@@ -8,11 +8,20 @@
     width: auto;
     height: 350px !important;
   }
+
+  .no-overflow {
+    overflow: hidden;
+  }
+
+  .check {
+    vertical-align: bottom;
+    line-height: 1.5rem;
+  }
 </style>
 <script src="javascripts/servicelist.js"></script>
 <div class="row flex-row">
     <div class="col s12 m3" onclick="goToServicePage()">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
           <img src="images/motors/IMG-20190603-WA0005.jpg">
           <span class="card-title package-title">Package I, (450)</span>
@@ -24,7 +33,7 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
           <img src="images/motors/IMG-20190603-WA0002.jpg">
           <span class="card-title package-title">Package II (1699) </span>
@@ -36,9 +45,9 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
-          <img src="images/motors/IMG-20190603-WA0011.jpg">
+          <img src="images/motors/scooter.jpg">
           <span class="card-title package-title">General Service I (999)</span>
         </div>
         <div class="card-content">
@@ -48,7 +57,7 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
           <img src="images/motors/IMG-20190603-WA0011.jpg">
           <span class="card-title package-title">General Service II (1499)</span>
@@ -60,7 +69,7 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
           <img src="images/motors/IMG-20190603-WA0010.jpg">
           <span class="card-title package-title">Premium Service (1999)</span>
@@ -72,7 +81,7 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
           <img src="images/motors/IMG-20190603-WA0005.jpg">
           <span class="card-title package-title">PACKAGE III (4199)</span>
@@ -84,9 +93,9 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
-          <img src="images/motors/IMG-20190603-WA0015.jpg">
+          <img src="images/motors/motor_headlight.jpg">
           <span class="card-title package-title">Full Restore I (29999)</span>
         </div>
         <div class="card-content">
@@ -98,14 +107,44 @@
     </div>
 
     <div class="col s12 m3">
-      <div class="card">
+      <a class="modal-trigger" href="#modal1">
+      <div class="card no-overflow hoverable">
         <div class="card-image">
-          <img src="images/motors/IMG-20190603-WA0013.jpg">
+          <img src="images/motors/engine.jpg">
           <span class="card-title package-title">Full Restore II (49999)</span>
         </div>
         <div class="card-content">
           <p>Full Restore with Engine Work, Painting, Plating</p>
         </div>
       </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Details Modal -->
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Package</h4>
+      <div>
+        <ul class="collection">
+          <li class="collection-item">
+            <i class="check material-icons">check_box</i>Full Restoration
+          </li>
+          <li class="collection-item">
+            <i class="check material-icons">check_box</i>Polish
+          </li>
+          <li class="collection-item">
+            <i class="check material-icons">check_box</i>Cleaning
+          </li>
+          <li class="collection-item">
+            <i class="check material-icons">check_box</i>Oil
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="/services" class="modal-close waves-effect waves-green btn-flat">Book Service</a>
     </div>
   </div>

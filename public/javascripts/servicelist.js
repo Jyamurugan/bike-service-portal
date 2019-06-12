@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    function goToServicePage() {
-        window.location.pathname = '/services';
-    }
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, {});
 });
