@@ -1,26 +1,22 @@
 {{> navigation}}
 <div class="row">
     <div class="col s12">
-        <h2 class="center-align">
+        <h3 class="center-align">
             Location
-        </h2>
+        </h3>
+        <h4 class="center-align">
+            {{address.name}}
+        </h4>
+        {{#each address.addressLines}}
         <p class="center-align">
-            Royal Motors
+            {{this}}
+        </p>
+        {{/each}}
+        <p class="center-align">
+            Phone: <a href="tel:{{address.phone}}">{{address.phone}}</a>
         </p>
         <p class="center-align">
-            43/22, Kollar Street
-        </p>
-        <p class="center-align">
-            Virudhunagar
-        </p>
-        <p class="center-align">
-            Chennai
-        </p>
-        <p class="center-align">
-            Phone: <a href="tel:+919976415494">9976415484</a>
-        </p>
-        <p class="center-align">
-            Email: <a href="mailto:jyamurugan@gmail.com">JYAMURUGAN@GMAIL.com</a>
+            Email: <a href="mailto:{{address.email}}">{{address.email}}</a>
         </p>
     </div>
 </div>
@@ -30,7 +26,28 @@
             Locate us on Google Maps
         </h2>
         <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{position:relative;text-align:right;display: flex;justify-content: center;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+            <div class="gmap_canvas">
+                <iframe width="600" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q={{address.mapLocation}}&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                </iframe>
+            </div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                }
+            </style>
+        </div>
     </div>
 </div>
 
