@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "nodemon --watch routes --watch public --watch routes --watch views  ./bin/www",
     "serve": "node ./bin/www"
   },
   "dependencies": {
