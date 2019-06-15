@@ -19,7 +19,44 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         M.FormSelect.init(elems, {});
     }
+
 });
+
+// Form related logic
+
+function validateForm() {
+    var customer = document.forms["serviceForm"]["customer"].value;
+    var vehicle = document.forms["serviceForm"]["vehicle"].value;
+    var service = document.forms["serviceForm"]["service"].value;
+    var location = document.forms["serviceForm"]["location"].value;
+    var contact = document.forms["serviceForm"]["contact"].value;
+    if(customer && customer.trim()) {
+    } else {
+        return false
+    }
+    if((vehicle && vehicle.trim())) {
+    } else {
+        alert("Vehicle must be filled out");
+      return false;
+    }
+    if((service && service.trim())) {
+      
+    } else {
+        alert("Service must be filled out");
+      return false;
+    }
+    if((location && location.trim())) {
+      
+    } else {
+        alert("Location must be filled out");
+      return false;
+    }
+    if(!(contact && contact.trim() && contact.length ===10)) {
+        alert("Contact must be filled out");
+        return false;
+    }
+    return true;
+}
 
 function serviceSelection() {
     var select = document.querySelector('#serviceSelect');

@@ -20,10 +20,10 @@
             Fill in the form. We will get back to you
         </h2>
     </div>
-    <form class="col s12">
+    <form class="col s12" name="serviceForm" action="/thanks" onsubmit="return validateForm()" method="get">
         <div class="row">
             <div class="input-field col s12">
-                <select id="serviceSelect" value="{{selectedService}}" onchange="serviceSelection()">
+                <select name="service" id="serviceSelect" value="{{selectedService}}" onchange="serviceSelection()">
                     <option value="" disabled selected>Choose Service</option>
                     {{#each services}}
                         <option value="{{this.code}}">{{this.title}}, ({{this.cost}})</option>
@@ -36,27 +36,27 @@
             </div>
 
             <div class="input-field col s12">
-                <input placeholder="Name" id="Name" type="text" class="validate" required>
+                <input name="customer" placeholder="Name" id="Name" type="text" class="validate" required>
                 <label for="Name">Name</label>
             </div>
 
             <div class="input-field col s12">
-                <input placeholder="Vehicle Type" id="Vehicle" type="text" class="validate" required>
+                <input name="vehicle" placeholder="Vehicle Type" id="Vehicle" type="text" class="validate" required>
                 <label for="Vehicle">Vehicle Type</label>
             </div>
 
             <div class="input-field col s12">
-                <input placeholder="Location" id="Location" type="text" class="validate" required>
+                <input name="location" placeholder="Location" id="Location" type="text" class="validate" value="Selayur" required>
                 <label for="Location">Location</label>
             </div>
 
             <div class="input-field col s12">
-                <input placeholder="Phone" id="Phone" type="tel" class="validate" required>
+                <input name="contact" placeholder="Phone" id="Phone" type="tel" class="validate" minlength="10" maxlength="10" required>
                 <label for="Phone">Phone Number</label>
             </div>
 
             <div class="col s12 center-align">
-                <button class="waves-effect waves-light btn">Submit</button>
+                <button type="submit" class="waves-effect waves-light btn">Submit</button>
             </div>
         </div>
     </form>
