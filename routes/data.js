@@ -9,7 +9,7 @@ const data = {
         ],
         phone: '+919841412007',
         email: 'rylmotorschennai@gmail.com',
-        mapLocation: 'Muthalamman+Koil+St,+Selaiyur,+Chennai,+Tamil+Nadu'
+        mapLocation: '12.921737, 80.140272'
     },
     servicesOffered: [
         {
