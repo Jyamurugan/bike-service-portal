@@ -2,13 +2,14 @@ const data = {
     addressInfo: {
         name: 'Royal Motors',
         addressLines: [
-            '43/22, Kollar Street',
-            'Virudhunagar',
-            'Chennai'
+            '58,  Muthalamman koil street',
+            'Chella Gas Agency',
+            'Back side of Punjab National Bank',
+            'Selayur - Chennai'
         ],
-        phone: '+919976415484',
-        email: 'JYAMURUGAN@GMAIL.com',
-        mapLocation: 'university%20of%20san%20francisco'
+        phone: '+919841412007',
+        email: 'rylmotorschennai@gmail.com',
+        mapLocation: 'Muthalamman+Koil+St,+Selaiyur,+Chennai,+Tamil+Nadu'
     },
     servicesOffered: [
         {
