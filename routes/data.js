@@ -22,7 +22,7 @@ const data = {
             ],
             otherInstructions: 'You can give some special notice here',
             code: 'package001',
-            imageLink: 'images/new/IMG_0206-min.jpg'
+            imageLink: 'images/new/IMG_0206-min.JPG'
         },
         {
             title: 'Package II',
@@ -36,7 +36,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'package002',
-            imageLink: 'images/new/IMG_0200-min.jpg'
+            imageLink: 'images/new/IMG_0200-min.JPG'
         },
         {
             title: 'General Service I',
@@ -50,7 +50,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'generalservice001',
-            imageLink: 'images/new/IMG_0218-min.jpg'
+            imageLink: 'images/new/IMG_0218-min.JPG'
         },
         {
             title: 'General Service II',
@@ -64,7 +64,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'generalservice002',
-            imageLink: 'images/new/IMG_0211-min.jpg'
+            imageLink: 'images/new/IMG_0211-min.JPG'
         },
         {
             title: 'Premium Service  I',
@@ -83,7 +83,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'premiumservice001',
-            imageLink: 'images/new/IMG_0189-min.jpg'
+            imageLink: 'images/new/IMG_0189-min.JPG'
         },
         {
             title: 'Premium Service II',
@@ -103,7 +103,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'premiumservice002',
-            imageLink: 'images/new/IMG_0183-min.jpg'
+            imageLink: 'images/new/IMG_0183-min.JPG'
         },
         {
             title: 'Full Restore I',
@@ -123,7 +123,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'fullrestore001',
-            imageLink: 'images/new/IMG_0198-min.jpg'
+            imageLink: 'images/new/IMG_0198-min.JPG'
         },
         {
             title: 'Full Restore II',
@@ -144,7 +144,7 @@ const data = {
             ],
             otherInstructions: '',
             code: 'fullrestore002',
-            imageLink: 'images/new/IMG_0177-min.jpg'
+            imageLink: 'images/new/IMG_0177-min.JPG'
         }
     ]
 }
