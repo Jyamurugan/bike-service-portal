@@ -22,7 +22,7 @@ const data = {
             ],
             otherInstructions: 'You can give some special notice here',
             code: 'package001',
-            imageLink: 'images/motors/IMG_0206.jpg'
+            imageLink: 'images/motors/engine.jpg'
         },
         {
             title: 'Package II',
