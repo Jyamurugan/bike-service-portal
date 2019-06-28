@@ -38,37 +38,37 @@ const data = {
             code: 'package002',
             imageLink: 'images/new/Package2.jpg'
         },
-        {
-            title: 'General Service I',
-            cost: 999,
-            description: 'General Service For Scooters',
-            services: [
-                'Engine Oil',
-                'Oil Filter',
-                'Water wash',
-                'Oil Lubrication with Polish'
-            ],
-            otherInstructions: '',
-            code: 'generalservice001',
-            imageLink: 'images/new/General1.jpg'
-        },
-        {
-            title: 'General Service II',
-            cost: 1499,
-            description: 'General Service For 100cc to 180cc Bikes',
-            services: [
-                'Engine Oil',
-                'Oil Filter',
-                'Water wash',
-                'Oil Lubrication with Polish'
-            ],
-            otherInstructions: '',
-            code: 'generalservice002',
-            imageLink: 'images/new/General2.jpg'
-        },
+        // {
+        //     title: 'General Service I',
+        //     cost: 999,
+        //     description: 'General Service For Scooters',
+        //     services: [
+        //         'Engine Oil',
+        //         'Oil Filter',
+        //         'Water wash',
+        //         'Oil Lubrication with Polish'
+        //     ],
+        //     otherInstructions: '',
+        //     code: 'generalservice001',
+        //     imageLink: 'images/new/General1.jpg'
+        // },
+        // {
+        //     title: 'General Service II',
+        //     cost: 1499,
+        //     description: 'General Service For 100cc to 180cc Bikes',
+        //     services: [
+        //         'Engine Oil',
+        //         'Oil Filter',
+        //         'Water wash',
+        //         'Oil Lubrication with Polish'
+        //     ],
+        //     otherInstructions: '',
+        //     code: 'generalservice002',
+        //     imageLink: 'images/new/General2.jpg'
+        // },
         {
             title: 'Premium Service  I',
-            cost: 1999,
+            cost: 1800,
             description: 'Premium Service For RE Bikes',
             services: [
                 'Engine Oil',
